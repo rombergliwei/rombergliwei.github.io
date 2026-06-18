@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-labelledby="title desc">
+  <title id="title">XDIP iron protein spectroscopy dataset</title>
+  <desc id="desc">Iron protein local structure paired with an X-ray absorption spectrum curve.</desc>
+  <rect width="900" height="320" fill="#fffdf8"/>
+  <g transform="translate(58 54)" stroke="#365c45" stroke-width="5" stroke-linecap="round">
+    <path d="M92 86l70-44 74 42-2 86-72 44-72-42z"/>
+    <path d="M236 84l74-42 74 42"/>
+    <path d="M234 170l76 44 74-44"/>
+    <path d="M384 84l66 40"/>
+    <path d="M384 170l66-46"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="middle">
+    <circle cx="150" cy="140" r="27" fill="#ffffff" stroke="#365c45" stroke-width="5"/>
+    <text x="150" y="149" fill="#365c45">C</text>
+    <circle cx="220" cy="96" r="27" fill="#ffffff" stroke="#365c45" stroke-width="5"/>
+    <text x="220" y="105" fill="#365c45">N</text>
+    <circle cx="294" cy="138" r="31" fill="#fff5f7" stroke="#c88b95" stroke-width="6"/>
+    <text x="294" y="148" fill="#8b5a65">Fe</text>
+    <circle cx="292" cy="224" r="27" fill="#ffffff" stroke="#365c45" stroke-width="5"/>
+    <text x="292" y="233" fill="#365c45">O</text>
+    <circle cx="220" cy="268" r="27" fill="#ffffff" stroke="#365c45" stroke-width="5"/>
+    <text x="220" y="277" fill="#365c45">C</text>
+    <circle cx="148" cy="226" r="27" fill="#ffffff" stroke="#365c45" stroke-width="5"/>
+    <text x="148" y="235" fill="#365c45">S</text>
+  </g>
+  <g transform="translate(505 72)">
+    <rect x="0" y="0" width="318" height="182" rx="14" fill="#ffffff" stroke="#d9e5ea" stroke-width="4"/>
+    <path d="M38 150h246M38 150V28" stroke="#6a6265" stroke-width="3"/>
+    <path d="M40 132c22-14 40-24 60-18 28 8 42-34 65-58 19-20 34 42 54 56 24 16 40-30 72-18" fill="none" stroke="#4d6f8c" stroke-width="6" stroke-linecap="round"/>
+    <path d="M40 144c30-6 58-12 82-38 22-24 44-52 68-18 31 44 62 30 100 16" fill="none" stroke="#c88b95" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+    <text x="42" y="31" font-family="Arial, sans-serif" font-size="20" fill="#2f5368">XAS</text>
+    <text x="204" y="171" font-family="Arial, sans-serif" font-size="18" fill="#6a6265">energy</text>
+  </g>
+  <text x="78" y="42" font-family="Arial, sans-serif" font-size="23" fill="#6a6265">iron-containing protein</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-labelledby="title desc">
+  <title id="title">Active learning for 3D molecular graphs</title>
+  <desc id="desc">A molecular graph with highlighted queried nodes and uncertainty-diversity selection.</desc>
+  <rect width="900" height="320" fill="#fbfff9"/>
+  <g stroke="#365c45" stroke-width="5" stroke-linecap="round">
+    <path d="M170 144l84-48 88 50-2 100-86 48-86-50z"/>
+    <path d="M342 146l92-48 86 50"/>
+    <path d="M340 246l94 50 86-52"/>
+    <path d="M520 148l82 46 76-42"/>
+    <path d="M520 244l82-50"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">
+    <circle cx="170" cy="144" r="29" fill="#ffffff" stroke="#365c45" stroke-width="5"/>
+    <text x="170" y="153" fill="#365c45">C</text>
+    <circle cx="254" cy="96" r="29" fill="#ffffff" stroke="#365c45" stroke-width="5"/>
+    <text x="254" y="105" fill="#365c45">N</text>
+    <circle cx="342" cy="146" r="29" fill="#ffffff" stroke="#365c45" stroke-width="5"/>
+    <text x="342" y="155" fill="#365c45">C</text>
+    <circle cx="340" cy="246" r="29" fill="#fff5f7" stroke="#c88b95" stroke-width="6"/>
+    <text x="340" y="255" fill="#8b5a65">?</text>
+    <circle cx="254" cy="294" r="29" fill="#ffffff" stroke="#365c45" stroke-width="5"/>
+    <text x="254" y="303" fill="#365c45">O</text>
+    <circle cx="168" cy="244" r="29" fill="#ffffff" stroke="#365c45" stroke-width="5"/>
+    <text x="168" y="253" fill="#365c45">H</text>
+    <circle cx="434" cy="98" r="29" fill="#ffffff" stroke="#365c45" stroke-width="5"/>
+    <text x="434" y="107" fill="#365c45">C</text>
+    <circle cx="520" cy="148" r="29" fill="#ffffff" stroke="#365c45" stroke-width="5"/>
+    <text x="520" y="157" fill="#365c45">O</text>
+    <circle cx="520" cy="244" r="29" fill="#ffffff" stroke="#365c45" stroke-width="5"/>
+    <text x="520" y="253" fill="#365c45">N</text>
+    <circle cx="602" cy="194" r="29" fill="#fff5f7" stroke="#c88b95" stroke-width="6"/>
+    <text x="602" y="203" fill="#8b5a65">?</text>
+    <circle cx="678" cy="152" r="29" fill="#ffffff" stroke="#365c45" stroke-width="5"/>
+    <text x="678" y="161" fill="#365c45">C</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="22" fill="#6a6265">
+    <text x="88" y="58">uncertainty</text>
+    <path d="M218 52h78" stroke="#c88b95" stroke-width="5" stroke-linecap="round"/>
+    <text x="642" y="277">diversity</text>
+    <path d="M738 270h76" stroke="#7ab6a3" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

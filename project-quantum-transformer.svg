@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-labelledby="title desc">
+  <title id="title">Quantum transformer ansatz</title>
+  <desc id="desc">Dissipative spin chain feeding into a transformer representation of a density operator.</desc>
+  <rect width="900" height="320" fill="#f7fbff"/>
+  <path d="M80 94h230" stroke="#2f5368" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#ffffff" stroke="#2f5368" stroke-width="4">
+    <circle cx="105" cy="94" r="18"/>
+    <circle cx="165" cy="94" r="18"/>
+    <circle cx="225" cy="94" r="18"/>
+    <circle cx="285" cy="94" r="18"/>
+  </g>
+  <path d="M102 63c18-30 50-30 68 0s50 30 68 0 50-30 68 0" fill="none" stroke="#7ab6a3" stroke-width="5" stroke-linecap="round"/>
+  <text x="84" y="42" font-family="Arial, sans-serif" font-size="22" fill="#2f5368">dissipative spin chain</text>
+  <text x="342" y="101" font-family="Arial, sans-serif" font-size="20" fill="#6a6265">density operator</text>
+  <path d="M500 96h72" stroke="#c88b95" stroke-width="4" stroke-linecap="round"/>
+  <path d="M572 96l-18-12v24z" fill="#c88b95"/>
+  <g transform="translate(605 50)">
+    <rect x="0" y="0" width="92" height="92" rx="10" fill="#ffffff" stroke="#c88b95" stroke-width="4"/>
+    <rect x="124" y="0" width="92" height="92" rx="10" fill="#ffffff" stroke="#c88b95" stroke-width="4"/>
+    <rect x="62" y="126" width="92" height="92" rx="10" fill="#ffffff" stroke="#c88b95" stroke-width="4"/>
+    <path d="M46 92l44 38M170 92l-44 38" stroke="#c88b95" stroke-width="4"/>
+    <text x="27" y="55" font-family="Arial, sans-serif" font-size="20" fill="#8b5a65">Q</text>
+    <text x="154" y="55" font-family="Arial, sans-serif" font-size="20" fill="#8b5a65">K</text>
+    <text x="95" y="181" font-family="Arial, sans-serif" font-size="20" fill="#8b5a65">V</text>
+  </g>
+  <rect x="80" y="205" width="410" height="58" rx="12" fill="#ffffff" stroke="#d9e5ea" stroke-width="3"/>
+  <path d="M112 235h342" stroke="#2f5368" stroke-width="3"/>
+  <path d="M112 235c46-38 92 38 138 0s92-38 138 0 46 20 66 0" fill="none" stroke="#7ab6a3" stroke-width="5"/>
+  <text x="86" y="292" font-family="Arial, sans-serif" font-size="22" fill="#2f5368">steady-state observables</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-labelledby="title desc">
+  <title id="title">Adaptive retrieval gating for RAG</title>
+  <desc id="desc">A query passes through an uncertainty gate that selectively routes to retrieval before answering.</desc>
+  <rect width="900" height="320" fill="#fbfbff"/>
+  <g font-family="Arial, sans-serif">
+    <rect x="60" y="92" width="165" height="118" rx="14" fill="#ffffff" stroke="#4d6f8c" stroke-width="4"/>
+    <text x="92" y="142" font-size="27" font-weight="700" fill="#2f5368">query</text>
+    <text x="92" y="176" font-size="19" fill="#6a6265">draft answer</text>
+    <path d="M240 151h110" stroke="#4d6f8c" stroke-width="5" stroke-linecap="round"/>
+    <path d="M350 151l-20-13v26z" fill="#4d6f8c"/>
+    <path d="M450 52l126 99-126 99-126-99z" fill="#fff5f7" stroke="#c88b95" stroke-width="5"/>
+    <text x="403" y="139" font-size="25" font-weight="700" fill="#8b5a65">gate</text>
+    <text x="385" y="174" font-size="18" fill="#8b5a65">uncertainty</text>
+    <path d="M576 151h96" stroke="#c88b95" stroke-width="5" stroke-linecap="round"/>
+    <path d="M672 151l-20-13v26z" fill="#c88b95"/>
+    <rect x="706" y="72" width="132" height="54" rx="10" fill="#ffffff" stroke="#7ab6a3" stroke-width="4"/>
+    <rect x="706" y="136" width="132" height="54" rx="10" fill="#ffffff" stroke="#7ab6a3" stroke-width="4"/>
+    <rect x="706" y="200" width="132" height="54" rx="10" fill="#ffffff" stroke="#7ab6a3" stroke-width="4"/>
+    <text x="731" y="105" font-size="20" fill="#365c45">paper</text>
+    <text x="731" y="169" font-size="20" fill="#365c45">notes</text>
+    <text x="731" y="233" font-size="20" fill="#365c45">facts</text>
+    <path d="M450 250v42h300v-36" fill="none" stroke="#4d6f8c" stroke-width="4" stroke-linecap="round"/>
+    <path d="M750 256l-13 20h26z" fill="#4d6f8c"/>
+    <text x="264" y="292" font-size="20" fill="#6a6265">retrieve only when needed</text>
+  </g>
+</svg>
