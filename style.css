@@ -690,6 +690,8 @@ h1 span{
   border: 2px solid #FEFFFF;
   border-collapse: collapse;
   border-spacing: 5px;
+  width:100%;
+  table-layout:fixed;
 }
 
 
@@ -700,6 +702,10 @@ white;
   font-size: 11pt;
   padding: 5px 5px 5px 5px;
   white-space: normal;
+}
+
+.portfolio table.papers td{
+  word-break:break-word;
 }
 
 .portfolio div.paper-summary {
@@ -716,6 +722,94 @@ white;
   height: 1px;
   width:900px;
   border:0;
+}
+
+.featured-projects{
+  margin:35px 0 45px;
+}
+
+.featured-projects-intro{
+  color:#333333;
+  margin-top:12px;
+  margin-bottom:24px;
+  line-height:24px;
+}
+
+.featured-project-grid{
+  display:flex;
+  flex-wrap:wrap;
+  gap:18px;
+}
+
+.featured-project-card{
+  box-sizing:border-box;
+  flex:1 1 260px;
+  min-height:220px;
+  padding:22px;
+  border:1px solid #ded8c7;
+  border-radius:6px;
+  background:white;
+  box-shadow:0 8px 24px rgba(0,0,0,0.06);
+}
+
+.featured-project-label{
+  display:inline-block;
+  margin-bottom:14px;
+  padding:5px 9px;
+  border:1px solid #ada074;
+  border-radius:999px;
+  color:#6b6041;
+  font-size:11px;
+  font-weight:bold;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+
+.featured-project-card h3{
+  min-height:46px;
+  margin:0;
+  color:#111111;
+  font-size:18px;
+  line-height:23px;
+  letter-spacing:1px;
+  font-weight:bold;
+}
+
+.featured-project-card p{
+  min-height:72px;
+  margin-top:14px;
+  color:#333333;
+  font-size:13px;
+  line-height:24px;
+  letter-spacing:0.5px;
+}
+
+.featured-project-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:18px;
+}
+
+.featured-project-links a{
+  display:inline-block;
+  padding:8px 11px;
+  border:1px solid #333333;
+  color:#333333;
+  font-size:12px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  -webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+.featured-project-links a:hover{
+  background:#ada074;
+  border-color:#ada074;
+  color:white;
 }
 
 
@@ -1071,4 +1165,3 @@ input.submit{
   line-height:36px;
   color:#a4a4a4;
 }
-

@@ -72,6 +72,7 @@ else
           if (a < b) $(this).fadeTo(1000,1);
       });
     });
+    $(window).trigger("scroll");
 
   }
 
@@ -86,6 +87,10 @@ else
     });
   });
 
+
+$(function(){
+  $(".preloader").delay(800).fadeOut("slow");
+});
 
 $(window).load(function(){
 
