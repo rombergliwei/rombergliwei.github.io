@@ -86,13 +86,18 @@ h1 {
   line-height:18px;
 }
 
-.publication-card{
-  display:block;
-  padding:18px;
+.publication-section{
+  margin-left:-12px;
+  margin-right:-12px;
+  padding:14px;
 }
 
-.publication-card-icon{
-  margin-bottom:14px;
+.publication-grid{
+  grid-template-columns:1fr;
+}
+
+.publication-card{
+  min-height:auto;
 }
 
 .publication-card-meta{
@@ -251,13 +256,18 @@ h1 {
   line-height:18px;
 }
 
-.publication-card{
-  display:block;
-  padding:18px;
+.publication-section{
+  margin-left:-12px;
+  margin-right:-12px;
+  padding:14px;
 }
 
-.publication-card-icon{
-  margin-bottom:14px;
+.publication-grid{
+  grid-template-columns:1fr;
+}
+
+.publication-card{
+  min-height:auto;
 }
 
 .publication-card-meta{

@@ -249,52 +249,60 @@
             <span>Click a paper card to view abstract</span>
           </div>
 
-          <article class="publication-card" onClick="toggle('area');">
-            <div class="publication-card-icon">ψ</div>
-            <div class="publication-card-body">
-              <div class="publication-card-meta">
-                <span class="publication-badge">Journal Paper</span>
-                <span>New Journal of Physics · 2020</span>
+          <div class="publication-grid">
+            <article class="publication-card" onClick="toggle('area');">
+              <div class="publication-card-visual">
+                <img src="neural.jpg" alt="Quantum neural network paper thumbnail" />
+                <div class="publication-card-icon">ψ</div>
               </div>
-              <h3>Entanglement area law for shallow and deep quantum neural network states</h3>
-              <p class="publication-authors">Zhih-Ahn Jia, Lu Wei, Yu-Chun Wu, Guang-Can Guo, Guo-Ping Guo</p>
-              <div class="publication-tags">
-                <span>Quantum neural networks</span>
-                <span>Entanglement area law</span>
-                <span>Many-body states</span>
+              <div class="publication-card-body">
+                <div class="publication-card-meta">
+                  <span class="publication-badge">Journal Paper</span>
+                  <span>New Journal of Physics · 2020</span>
+                </div>
+                <h3>Entanglement area law for shallow and deep quantum neural network states</h3>
+                <p class="publication-authors">Zhih-Ahn Jia, Lu Wei, Yu-Chun Wu, Guang-Can Guo, Guo-Ping Guo</p>
+                <div class="publication-tags">
+                  <span>Quantum neural networks</span>
+                  <span>Entanglement area law</span>
+                  <span>Many-body states</span>
+                </div>
+                <div class="publication-actions">
+                  <a href="https://iopscience.iop.org/article/10.1088/1367-2630/ab8262" onClick="event.stopPropagation();">Journal</a>
+                  <a href="https://arxiv.org/abs/1907.11333" onClick="event.stopPropagation();">arXiv:1907.11333</a>
+                </div>
+                <div class="publication-abstract" style="display: none;" id="abs-area">
+                  A study of the artificial neural network representation of quantum many-body states is presented. The locality and entanglement properties of states for shallow and deep quantum neural networks are investigated in detail. By introducing the notion of local quasi-product states, for which the locally connected shallow feed-forward neural network states and restricted Boltzmann machine states are special cases, we show that Renyi entanglement entropies of all these states obey the entanglement area law. Besides, we also investigate the entanglement features of deep Boltzmann machine states and show that locality constraints imposed on the neural networks make the states obey the entanglement area law.
+                </div>
               </div>
-              <div class="publication-actions">
-                <a href="https://iopscience.iop.org/article/10.1088/1367-2630/ab8262" onClick="event.stopPropagation();">Journal</a>
-                <a href="https://arxiv.org/abs/1907.11333" onClick="event.stopPropagation();">arXiv:1907.11333</a>
-              </div>
-              <div class="publication-abstract" style="display: none;" id="abs-area">
-                A study of the artificial neural network representation of quantum many-body states is presented. The locality and entanglement properties of states for shallow and deep quantum neural networks are investigated in detail. By introducing the notion of local quasi-product states, for which the locally connected shallow feed-forward neural network states and restricted Boltzmann machine states are special cases, we show that Renyi entanglement entropies of all these states obey the entanglement area law. Besides, we also investigate the entanglement features of deep Boltzmann machine states and show that locality constraints imposed on the neural networks make the states obey the entanglement area law.
-              </div>
-            </div>
-          </article>
+            </article>
 
-          <article class="publication-card" onClick="toggle('blackhole');">
-            <div class="publication-card-icon">⊕</div>
-            <div class="publication-card-body">
-              <div class="publication-card-meta">
-                <span class="publication-badge">Preprint</span>
-                <span>arXiv · 2020</span>
+            <article class="publication-card" onClick="toggle('blackhole');">
+              <div class="publication-card-visual">
+                <img src="QI.jpg" alt="Bell nonlocality paper thumbnail" />
+                <div class="publication-card-icon">⊕</div>
               </div>
-              <h3>Quantum advantages of communication complexity from Bell nonlocality</h3>
-              <p class="publication-authors">Zhih-Ahn Jia, Lu Wei, Yu-Chun Wu, Guang-Can Guo</p>
-              <div class="publication-tags">
-                <span>Bell nonlocality</span>
-                <span>Communication complexity</span>
-                <span>Quantum advantage</span>
+              <div class="publication-card-body">
+                <div class="publication-card-meta">
+                  <span class="publication-badge">Preprint</span>
+                  <span>arXiv · 2020</span>
+                </div>
+                <h3>Quantum advantages of communication complexity from Bell nonlocality</h3>
+                <p class="publication-authors">Zhih-Ahn Jia, Lu Wei, Yu-Chun Wu, Guang-Can Guo</p>
+                <div class="publication-tags">
+                  <span>Bell nonlocality</span>
+                  <span>Communication complexity</span>
+                  <span>Quantum advantage</span>
+                </div>
+                <div class="publication-actions">
+                  <a href="https://arxiv.org/abs/2004.05098" onClick="event.stopPropagation();">arXiv:2004.05098</a>
+                </div>
+                <div class="publication-abstract" style="display: none;" id="abs-blackhole">
+                  Communication games are crucial tools for investigating the limitations of physical theories. The inverse communication complexity problem is a typical example, for which several distributed parties attempt to jointly calculate a given function with restricted classical communications. In this work, we present a graph-theoretic class of inverse communication complexity problems where pre-shared entangled states improve the probability of success over arbitrary classical strategies.
+                </div>
               </div>
-              <div class="publication-actions">
-                <a href="https://arxiv.org/abs/2004.05098" onClick="event.stopPropagation();">arXiv:2004.05098</a>
-              </div>
-              <div class="publication-abstract" style="display: none;" id="abs-blackhole">
-                Communication games are crucial tools for investigating the limitations of physical theories. The inverse communication complexity problem is a typical example, for which several distributed parties attempt to jointly calculate a given function with restricted classical communications. In this work, we present a graph-theoretic class of inverse communication complexity problems where pre-shared entangled states improve the probability of success over arbitrary classical strategies.
-              </div>
-            </div>
-          </article>
+            </article>
+          </div>
         </div>
   <hr>
   </div>
