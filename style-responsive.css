@@ -76,6 +76,34 @@ h1 {
   width:106px;
 }
 
+.publication-section-head{
+  display:block;
+}
+
+.publication-section-head span{
+  display:block;
+  margin-top:10px;
+  line-height:18px;
+}
+
+.publication-card{
+  display:block;
+  padding:18px;
+}
+
+.publication-card-icon{
+  margin-bottom:14px;
+}
+
+.publication-card-meta{
+  display:block;
+}
+
+.publication-card-meta span{
+  display:inline-block;
+  margin-bottom:8px;
+}
+
 .partners .content{
   width:300px;
 }
@@ -211,6 +239,34 @@ h1 {
 
 .portfolio1 .portfolio-margin hr{
   width:106px;
+}
+
+.publication-section-head{
+  display:block;
+}
+
+.publication-section-head span{
+  display:block;
+  margin-top:10px;
+  line-height:18px;
+}
+
+.publication-card{
+  display:block;
+  padding:18px;
+}
+
+.publication-card-icon{
+  margin-bottom:14px;
+}
+
+.publication-card-meta{
+  display:block;
+}
+
+.publication-card-meta span{
+  display:inline-block;
+  margin-bottom:8px;
 }
 
 .partners .content{
