@@ -77,36 +77,82 @@ h1 {
 }
 
 .publication-section-head{
-  display:block;
+  max-width:100%;
+  margin-bottom:24px;
+  text-align:center;
 }
 
-.publication-section-head span{
+.publication-section-head p{
   display:block;
   margin-top:10px;
-  line-height:18px;
+  font-size:13px;
+  line-height:22px;
+}
+
+.publication-section-head h2{
+  font-size:28px;
+  line-height:36px;
+}
+
+.portfolio .portfolio-margin .publication-section-head h2{
+  line-height:36px;
 }
 
 .publication-section{
-  margin-left:-12px;
-  margin-right:-12px;
-  padding:14px;
+  margin:42px -8px 46px;
+  padding:42px 10px 46px;
+}
+
+.publication-section:before{
+  inset:0;
 }
 
 .publication-grid{
   grid-template-columns:1fr;
+  gap:18px;
 }
 
 .publication-card{
   min-height:auto;
+  padding:22px;
+}
+
+.publication-card-header{
+  gap:14px;
+  margin-bottom:16px;
+}
+
+.publication-card-icon{
+  flex-basis:52px;
+  width:52px;
+  height:52px;
 }
 
 .publication-card-meta{
-  display:block;
+  gap:7px;
 }
 
 .publication-card-meta span{
   display:inline-block;
-  margin-bottom:8px;
+}
+
+.publication-card h3{
+  font-size:18px;
+  line-height:25px;
+}
+
+.publication-description{
+  font-size:13px;
+  line-height:22px;
+}
+
+.publication-actions{
+  gap:8px;
+}
+
+.publication-action{
+  flex:1 1 118px;
+  padding:0 12px;
 }
 
 .partners .content{
