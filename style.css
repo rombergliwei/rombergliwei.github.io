@@ -623,6 +623,18 @@ h1 span{
 
 #activities { padding-bottom: 72px; }
 #activities p { color: #333; line-height: 1.6; margin-top: 24px; }
+#activities .portfolio-margin { width: calc(100% - 40px); max-width: 900px; }
+#activities hr { max-width: 100%; }
+#activities .activity-entry { margin-top: 40px; }
+#activities .activity-entry h2 { font-size: 24px; line-height: 1.3; text-transform: none; }
+#activities .activity-date { color: #666; margin-top: 8px; }
+.activity-photos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 24px; align-items: start; }
+.activity-photos a { display: block; }
+.activity-photos a:focus-visible { outline: 3px solid #2fa68e; outline-offset: 4px; }
+.activity-photos img { display: block; width: 100%; height: auto; border-radius: 6px; }
+@media (max-width: 579px) {
+  .activity-photos { grid-template-columns: 1fr; }
+}
 
 .portfolio .portfolio-margin{
   position:relative;
