@@ -621,6 +621,9 @@ h1 span{
 
 }
 
+#activities { padding-bottom: 72px; }
+#activities p { color: #333; line-height: 1.6; margin-top: 24px; }
+
 .portfolio .portfolio-margin{
   position:relative;
   width:900px;
