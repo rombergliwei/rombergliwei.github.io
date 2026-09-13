@@ -449,7 +449,7 @@ h1 span{
   width:300px;
   float:left;
   margin-bottom:10px;
-  height:350px;
+  min-height:350px;
 }
 
 .about-us .column-two .circle-two{
