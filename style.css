@@ -524,6 +524,10 @@ h1 span{
   color:#333;
 }
 
+#personal-interests h3 a{
+  font-size:inherit;
+}
+
 #personal-interests .anime-list{
   margin:0 0 24px;
 }
