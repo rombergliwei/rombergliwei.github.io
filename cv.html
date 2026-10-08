@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic curriculum vitae of Lu Wei, a Data Science Ph.D. candidate at Stony Brook University.">
+  <title>Lu Wei | Curriculum Vitae</title>
+  <link rel="icon" href="favicon.png">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #fff; color: #222; font: 16px/1.65 Arial, Helvetica, sans-serif; }
+    main { max-width: 880px; margin: 48px auto; padding: 0 28px; }
+    a { color: #167965; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: #0c5143; }
+    a:focus-visible { outline: 2px solid #167965; outline-offset: 4px; }
+    header { border-bottom: 2px solid #222; padding-bottom: 24px; }
+    h1 { margin: 12px 0 2px; font-size: 38px; line-height: 1.2; }
+    h2 { margin: 32px 0 14px; padding-bottom: 6px; border-bottom: 1px solid #ddd; font-size: 20px; }
+    h3 { margin: 0 0 4px; font-size: 17px; }
+    p { margin: 6px 0 12px; }
+    .subtitle, .dates, footer { color: #555; }
+    .contact { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 14px; }
+    .entry { margin: 18px 0; }
+    .entry-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 8px 24px; }
+    .dates { white-space: nowrap; font-size: 14px; }
+    ul { padding-left: 22px; margin: 8px 0; }
+    li { margin: 6px 0; }
+    .publications { padding-left: 25px; }
+    .publications li { padding-left: 4px; margin-bottom: 18px; }
+    .publication-title { display: block; margin-top: 2px; }
+    .venue { display: block; color: #555; }
+    footer { border-top: 1px solid #ddd; margin-top: 36px; padding-top: 14px; font-size: 14px; }
+    @media (max-width: 600px) {
+      main { margin: 24px auto; padding: 0 20px; }
+      h1 { font-size: 32px; }
+      .entry-heading { display: block; }
+      .contact { gap: 6px 14px; }
+    }
+    @media print {
+      body { font-size: 10.5pt; }
+      main { max-width: none; margin: 0; padding: 0; }
+      h1 { font-size: 25pt; }
+      h2 { font-size: 13pt; margin-top: 20px; break-after: avoid; }
+      h3 { font-size: 11pt; }
+      a { color: inherit; text-decoration: none; }
+      .entry, .publications li { break-inside: avoid; }
+      .back-link { display: none; }
+      @page { margin: 18mm; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <a class="back-link" href="./">Lu Wei's homepage</a>
+      <h1>Lu Wei | 韦璐</h1>
+      <p class="subtitle">Curriculum Vitae</p>
+      <p>Ph.D. Candidate in Data Science, Stony Brook University</p>
+      <nav class="contact" aria-label="Contact and academic profiles">
+        <a href="mailto:lu.wei.1@stonybrook.edu">lu.wei.1@stonybrook.edu</a>
+        <a href="https://scholar.google.com/citations?user=QuVuEikAAAAJ">Google Scholar</a>
+        <a href="https://openreview.net/profile?id=~Lu_Wei2">OpenReview</a>
+        <a href="https://github.com/DDDIGHE">GitHub</a>
+      </nav>
+    </header>
+
+    <section aria-labelledby="interests">
+      <h2 id="interests">Research Interests</h2>
+      <p>Quantum machine learning, quantum tomography, open quantum systems, many-body simulation, and AI for science.</p>
+    </section>
+
+    <section aria-labelledby="education">
+      <h2 id="education">Education</h2>
+      <div class="entry">
+        <div class="entry-heading">
+          <h3>Stony Brook University</h3>
+          <span class="dates">2023 - Present</span>
+        </div>
+        <p>Ph.D. in Data Science. Advanced to candidacy in 2026.<br>
+          Advisor: Prof. Haibin Ling. Co-advisor: Prof. Jiawei Zhou.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-heading">
+          <h3>Stony Brook University</h3>
+          <span class="dates">2023 - 2025</span>
+        </div>
+        <p>M.S. in Data Science.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-heading">
+          <h3>University of Science and Technology of China</h3>
+          <span class="dates">2016 - 2021</span>
+        </div>
+        <p>B.S. in Photoelectric Information Science and Engineering, School of the Gifted Young.<br>
+          Advisor: Prof. Yu-Chun Wu.</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="experience">
+      <h2 id="experience">Selected Research Experience</h2>
+      <div class="entry">
+        <h3>Quantum Tomography</h3>
+        <ul>
+          <li>Co-led physically constrained, matrix-free quantum process reconstruction, published in TMLR.</li>
+          <li>Developed Bures-geometric flow matching for posterior quantum tomography, accepted to NeurIPS 2026.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <h3>Variational Transformer Ansatz for Quantum Many-Body Simulation</h3>
+        <ul>
+          <li>Designed a transformer representation of density operators for dissipative quantum steady states.</li>
+          <li>Implemented the scientific computing pipeline in JAX and NetKet and drafted the manuscript, published in Physical Review B.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <h3>Active Learning for 3D Molecular Graphs</h3>
+        <ul>
+          <li>Developed geometric uncertainty sampling for label-efficient molecular property prediction.</li>
+          <li>Implemented the sampling strategy, trained models, prepared figures, and drafted the manuscript, published at NeurIPS 2024.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <h3>Dataset Curation for Protein Spectroscopy</h3>
+        <ul>
+          <li>Curated iron-containing protein structures and X-ray absorption spectra into a machine-learning dataset.</li>
+          <li>Co-released XDIP and its curation notebooks; presented at the NeurIPS 2025 AI4Mat Workshop.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <h3>Adaptive Retrieval for Language Models</h3>
+        <ul>
+          <li>Designed uncertainty-based gating to selectively trigger retrieval in question-answering systems.</li>
+          <li>Implemented the retrieval pipeline with FAISS, sentence transformers, and Hugging Face models; published in TMLR.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="publications">
+      <h2 id="publications">Selected Publications</h2>
+      <p>An asterisk (*) denotes equal contribution.</p>
+      <ol class="publications">
+        <li>
+          <strong>Lu Wei</strong>, Yufeng Wang, Chenfeng Cao, Haibin Ling.
+          <span class="publication-title">BuresTomFlow: Bures-Geometric Flow Matching for Posterior Quantum Tomography.</span>
+          <span class="venue">NeurIPS 2026, accepted as a poster; to appear.</span>
+        </li>
+        <li>
+          <strong>Lu Wei*</strong>, Yufeng Wang*, Haibin Ling.
+          <a class="publication-title" href="https://openreview.net/forum?id=f2LcKcJL2m">Sample-Based Constrained Inference for Matrix-Free Quantum Process Tomography.</a>
+          <span class="venue">Transactions on Machine Learning Research, 2026.</span>
+        </li>
+        <li>
+          Yufeng Wang*, <strong>Lu Wei*</strong>, Lin Liu, Hao Xu, Haibin Ling.
+          <a class="publication-title" href="https://doi.org/10.1186/s13321-026-01234-1">How well can off-the-shelf LLMs elucidate molecular structures from mass spectra using chain-of-thought reasoning?</a>
+          <span class="venue">Journal of Cheminformatics 18, 114, 2026.</span>
+        </li>
+        <li>
+          Maqsudur Rahman, Rui Liu, Anup Majumder, Pintu Chandra Paul, Kangtong Mo, Amena Begum, Kashmi Sultana, Nahida Akter, <strong>Lu Wei</strong>, Ye Zhang, Jun Zhuang.
+          <a class="publication-title" href="https://doi.org/10.3390/jimaging12070275">Benchmarking Barren Plateau Mitigation Strategies in Quantum Neural Networks on Standard and Medical Image Datasets.</a>
+          <span class="venue">Journal of Imaging 12 (7), 275, 2026.</span>
+        </li>
+        <li>
+          Yufeng Wang, <strong>Lu Wei</strong>, Haibin Ling.
+          <a class="publication-title" href="https://openreview.net/forum?id=L8gYtUZfVU">Retrieval as a Decision: Training-Free Adaptive Gating for Efficient RAG.</a>
+          <span class="venue">Transactions on Machine Learning Research, 2026.</span>
+        </li>
+        <li>
+          <strong>Lu Wei</strong>, Zhih-Ahn Jia, Yufeng Wang, Dagomir Kaszlikowski, Haibin Ling.
+          <a class="publication-title" href="https://journals.aps.org/prb/abstract/10.1103/bpf7-d1yp">Variational Transformer Ansatz for the Density Operator of Steady States in Dissipative Quantum Many-Body Systems.</a>
+          <span class="venue">Physical Review B 112, 064303, 2025.</span>
+        </li>
+        <li>
+          Yufeng Wang*, Peiyao Wang*, <strong>Lu Wei*</strong>, Emerita Mendoza Rengifo, Dali Yang, Lu Ma, Yuewei Lin, Qun Liu, Haibin Ling.
+          <a class="publication-title" href="https://openreview.net/pdf?id=hFzjgQzoVU">XDIP: A Curated X-ray Absorption Spectrum Dataset for Iron-Containing Proteins.</a>
+          <span class="venue">NeurIPS 2025 Workshop on AI for Accelerated Materials Design.</span>
+        </li>
+        <li>
+          Ronast Subedi*, <strong>Lu Wei*</strong>, Wenhan Gao*, Shayok Chakraborty, Yi Liu.
+          <a class="publication-title" href="https://proceedings.neurips.cc/paper_files/paper/2024/file/6462073c6bdf864ebfbbb11e80619f3e-Paper-Conference.pdf">Empowering Active Learning for 3D Molecular Graphs with Geometric Graph Isomorphism.</a>
+          <span class="venue">NeurIPS 2024.</span>
+        </li>
+        <li>
+          <strong>Lu Wei</strong>, Zhih-Ahn Jia, Dagomir Kaszlikowski, Sheng Tan.
+          <a class="publication-title" href="https://doi.org/10.1007/s11128-024-04499-3">Antilinear superoperator, quantum geometric invariance, and antilinear symmetry for higher-dimensional quantum systems.</a>
+          <span class="venue">Quantum Information Processing 23, 290, 2024.</span>
+        </li>
+        <li>
+          Zhih-Ahn Jia, <strong>Lu Wei</strong>, Yu-Chun Wu, Guang-Can Guo.
+          <a class="publication-title" href="https://doi.org/10.3390/e23060744">Quantum advantages of communication complexity from Bell nonlocality.</a>
+          <span class="venue">Entropy 23 (6), 744, 2021.</span>
+        </li>
+        <li>
+          Zhih-Ahn Jia*, <strong>Lu Wei*</strong>, Yu-Chun Wu, Guang-Can Guo, Guo-Ping Guo.
+          <a class="publication-title" href="https://iopscience.iop.org/article/10.1088/1367-2630/ab8262">Entanglement Area Law for Shallow and Deep Quantum Neural Network States.</a>
+          <span class="venue">New Journal of Physics 22, 2020.</span>
+        </li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="skills">
+      <h2 id="skills">Technical Skills</h2>
+      <ul>
+        <li><strong>Programming:</strong> Python, C, Bash.</li>
+        <li><strong>Machine learning and scientific computing:</strong> PyTorch, JAX, NumPy, SciPy, Hugging Face.</li>
+        <li><strong>Quantum software:</strong> Qiskit, PennyLane, NetKet, QuTiP.</li>
+        <li><strong>Tools:</strong> Linux, Slurm, Git, Docker.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="service">
+      <h2 id="service">Academic Service</h2>
+      <p>Reviewer: NeurIPS 2026 and KDD 2026 AI4Sciences Track.</p>
+    </section>
+
+    <footer>Updated October 7, 2026.</footer>
+  </main>
+</body>
+</html>
